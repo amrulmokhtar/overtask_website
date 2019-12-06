@@ -1,0 +1,93 @@
+@import "base.less";
+
+#faqbody{
+	position: relative;
+	top: 100px;
+	width: 80%;
+	margin: 0 auto;
+
+	h3{
+		font-weight: normal;
+		font-size: 36pt;
+		color: @belize;
+		margin: 0 0 40px 0;
+	}
+
+	#faqmain{
+		margin: 0 2% 0 0;
+		width: 68%;
+		float: left;
+
+
+		input.search{
+			width: 98%;
+			margin: 0 0 30px 0;
+			.border(0px);
+			border-width: 1px;
+		}
+
+		.question{
+			margin: 0 2% 30px;
+
+			h3{
+				font-size: 24pt;
+				color: @darkgray;
+				margin: 0;
+			}
+
+			p{
+				font-size: 13pt;
+				line-height: 28px;
+
+				&.tags{
+					font-size: 10pt;
+					line-height: 0;
+					margin: 5px 0 20px 0;
+					text-transform: uppercase;
+					color: @overtaskblue;
+
+					a{
+						color: @overtaskblue;
+					}
+				}
+			}
+
+		}
+	}
+
+	#faqsidebar{
+		margin: 0;
+		padding: 0;
+		width: 30%;
+		float: right;
+
+		ul.tagsbar{
+			margin: 0;
+			padding: 0;
+
+			li{
+				list-style: none;
+				display: block;
+				background: #eee;
+				padding: 10px;
+				margin: 5px 0;
+
+				a{
+					color: @overtaskblue;
+					text-decoration: none;
+					font-size: 13pt;
+
+					span.badge{
+						background: @overtaskblue;
+						margin: 0 10px;
+					}
+				}
+
+				&:hover{
+					background: #ddd;
+				}
+			}
+		}
+	}
+
+}

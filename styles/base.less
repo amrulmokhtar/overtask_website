@@ -1,0 +1,44 @@
+
+/* Colors */
+
+@black: #000;
+@white: #fff;
+@darkgray: #444;
+@belize: #2980b9;
+@overtaskblue: #3499cf;
+@green: #27ae60;
+
+
+@header: #34495e;
+@press: @belize;
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v7/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v7/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+	font-family: "Lato", sans serif;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.border(@radius){
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}

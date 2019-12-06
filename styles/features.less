@@ -1,0 +1,192 @@
+
+@import 'base.less';
+
+#home{
+	position: relative;
+  background-color: @overtaskblue;
+  height: 90%;
+  width: 100%;
+  top: 70px;
+  left: 0;
+  z-index: 1;
+  
+
+  img.feature{
+  	
+  	position: absolute;
+  	width: 50%;
+  	height: auto;
+  	bottom: 0;
+  	left: 50%;
+  	margin: -25% 0px 0 -30%;
+  }
+
+  .homecenter{
+	position: absolute;
+	width: 60%;
+	height: 150px;
+	top: 20%;
+	left: 50%;
+	margin: -75px 0 0 -30%;
+	text-align: center;
+	color: @white;
+		font-size: 18pt;
+		font-weight: 300;
+		font-style: italic;
+	
+	h1{
+	  color: @white;
+	  font-size: 36pt;
+	  font-weight: bolder;
+	  font-style: normal;
+	  //margin-bottom: 20px;
+	}
+	
+
+	
+	a.btnhome{
+	   background: @green;//transparent;
+	  border: 1px solid #1abc9c;
+	  height: 25px;
+	  width: 160px;
+	  padding: 15px;
+	  margin: 30px 5px;
+	  font-style: normal;
+
+	  &:hover{
+	  	background: #2ecc71;
+	  }
+	  
+	  
+	  img{
+		float: left;
+		height: 40px;
+		width: 40px;
+		margin: -8px 5px 0 -8px;
+	  }
+	  
+	  h3{
+		font-weight: normal;
+		font-size: 14pt;
+		line-height: 10px;
+		margin: 0;
+		text-transform: uppercase;
+	  }
+	  
+	  small{
+		margin: 0;
+		font-size: 10pt;
+		line-height: 8px;
+	  }
+	}
+  }
+}
+
+
+#features{
+  padding-top: 100px;
+  margin-bottom: 50px;
+  
+  .feature{
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	position: relative;
+	text-align: center;
+
+	&.side{
+		height: 360px;
+		margin-top: 100px;
+
+		h3, p{
+			text-align: left;
+		}
+		p{
+			width: 360px;
+		}
+		h3{
+			width: 420px;
+		}
+	}
+	
+	h3{
+	  font-size: 32pt;
+	  font-weight: bolder;
+	  margin-bottom: 20px;
+	}
+
+	p{
+		font-size: 14pt;
+		line-height: 30px;
+	}
+	
+	
+	img.right{
+	  width: 280px;
+	  height: 400px;
+	  position: absolute;
+	  top: -40px;
+	  right: 0;
+	}
+	
+	img.center{
+	  width: 600px;
+	  height: 400px;
+	  margin: 20px 0 0 0;
+	}
+  }
+}
+
+#download{
+	background: #222;
+	position: relative;
+	text-align: center;
+	padding: 50px 0;
+
+
+	h1{
+	  color: @white;
+	  font-size: 36pt;
+	  line-height: 50px;
+	  font-weight: bold;
+	  font-style: normal;
+	  margin-bottom: 20px;
+	}
+
+	a.btnhome{
+	  background: @green;//transparent;
+	  border: 1px solid #1abc9c;
+	  height: 25px;
+	  width: 160px;
+	  padding: 15px;
+	  margin: 30px 5px;
+	  font-style: normal;
+
+	  &:hover{
+	  	background: #2ecc71;
+	  }
+	  
+	  
+	  img{
+		float: left;
+		height: 40px;
+		width: 40px;
+		margin: -8px 5px 0 -8px;
+	  }
+	  
+	  h3{
+		font-weight: normal;
+		font-size: 14pt;
+		line-height: 10px;
+		margin: 0;
+		text-transform: uppercase;
+	  }
+	  
+	  small{
+		margin: 0;
+		font-size: 10pt;
+		line-height: 8px;
+	  }
+	}
+}
